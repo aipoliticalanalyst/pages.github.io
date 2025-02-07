@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TikTok QuickPost</title>
-  <!-- Google Fonts (Montserrat) を利用 -->
+  <title>TikTok QuickPost (個人利用専用)</title>
+  <!-- Google Fonts: Montserrat -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -27,27 +27,7 @@
       color: #ff5722;
     }
     nav {
-      background: rgba(255, 255, 255, 0.9);
-      padding: 10px 0;
-    }
-    nav ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-    }
-    nav ul li {
-      margin: 0 20px;
-    }
-    nav ul li a {
-      text-decoration: none;
-      color: #ff5722;
-      font-weight: bold;
-      transition: color 0.3s;
-    }
-    nav ul li a:hover {
-      color: #e64a19;
+      display: none;
     }
     main {
       max-width: 800px;
@@ -63,6 +43,14 @@
     }
     main p {
       line-height: 1.6;
+      font-size: 1.1em;
+    }
+    .notice {
+      margin: 20px 0;
+      padding: 15px;
+      background: rgba(0,0,0,0.05);
+      border-radius: 5px;
+      font-size: 0.95em;
     }
     .contact {
       margin-top: 20px;
@@ -89,28 +77,24 @@
   <header>
     <h1>TikTok QuickPost</h1>
   </header>
-  <nav>
-    <ul>
-      <li><a href="index.html">ホーム</a></li>
-      <li><a href="terms.html">利用規約</a></li>
-      <li><a href="privacy.html">プライバシーポリシー</a></li>
-    </ul>
-  </nav>
   <main>
-    <h2>サービス概要</h2>
+    <h2>個人利用専用ツールについて</h2>
     <p>
-      TikTok QuickPostは、個人向けにTikTokへの動画自動アップロードを実現するツールです。<br>
-      ユーザーは動画ファイルを選択し、タイトルやハッシュタグを入力するだけで、指定した日時に自動的に投稿できます。<br>
-      このツールにより、手動での投稿作業を省き、効率的なコンテンツ管理が可能になります。
+      このサイトは、私個人がTikTokへの動画自動アップロードを実現するためのツールです。<br>
+      公開サービスとしては運用せず、あくまで個人利用専用として運用します。<br>
+      動画ファイルを選択し、タイトルやハッシュタグを入力するだけで、指定した日時に自動でTikTokへ動画を投稿できます。
     </p>
+    <div class="notice">
+      ※本ツールは個人利用のみを目的としており、商用サービスとしては提供しておりません。
+    </div>
     <div class="contact">
       <p>
-        お問い合わせは <a href="mailto:ai.media.business.contact@gmail.com">ai.media.business.contact@gmail.com</a> まで。
+        お問い合わせは <a href="mailto:ai.media.business.contact@gmail.com">ai.media.business.contact@gmail.com</a> までお願いします。
       </p>
     </div>
   </main>
   <footer>
-    <p>&copy; 2025 TikTok QuickPost. All rights reserved.</p>
+    <p>&copy; 2025 TikTok QuickPost (個人利用専用). All rights reserved.</p>
   </footer>
 </body>
 </html>
