@@ -26,6 +26,7 @@
       font-size: 2.5em;
       color: #ff5722;
     }
+    /* 個人利用専用なのでナビゲーションは非表示 */
     nav {
       display: none;
     }
@@ -63,6 +64,21 @@
       text-decoration: none;
       font-weight: bold;
     }
+    .info-links {
+      margin-top: 30px;
+      text-align: center;
+    }
+    .info-links a {
+      display: inline-block;
+      margin: 0 10px;
+      text-decoration: none;
+      color: #e64a19;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    .info-links a:hover {
+      color: #d84315;
+    }
     footer {
       text-align: center;
       padding: 15px;
@@ -92,10 +108,17 @@
         お問い合わせは <a href="mailto:ai.media.business.contact@gmail.com">ai.media.business.contact@gmail.com</a> までお願いします。
       </p>
     </div>
+    <div class="info-links">
+      <a href="https://aipoliticalanalyst.github.io/pages.github.io/terms.html" target="_blank">利用規約</a>
+      <a href="https://www.termsfeed.com/live/958d198b-b34e-43ca-8195-af13c51357e7" target="_blank">プライバシーポリシー</a>
+      <a href="https://aipoliticalanalyst.github.io/pages.github.io/index.html" target="_blank">公式サイト</a>
+    </div>
   </main>
   <footer>
     <p>&copy; 2025 TikTok QuickPost (個人利用専用). All rights reserved.</p>
   </footer>
 </body>
 </html>
+
+
 
